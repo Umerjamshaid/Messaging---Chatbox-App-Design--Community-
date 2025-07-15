@@ -50,42 +50,72 @@ class OnboardingScreen extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const Text(
-                      'Connect friends\neasily &\nquickly',
+                    Text(
+                      'Connect friends',
                       style: TextStyle(
-                        fontFamily: 'Helvetica',
+                        fontFamily: 'caros',
                         fontSize: 68,
-                        fontWeight: FontWeight.bold,
+                        fontWeight: FontWeight.w400,
+                        fontStyle: FontStyle.normal,
                         color: Colors.white,
                         height: 1.2,
                       ),
                     ),
+                    RichText(
+                      text: TextSpan(
+                        style: TextStyle(
+                          fontFamily: 'caros',
+                          fontSize: 68,
+                          fontWeight: FontWeight.w800,
+                          fontStyle: FontStyle.italic,
+                          height: 1.2,
+                          color: Colors.white,
+                        ),
+                        children: [
+                          TextSpan(text: 'easily &\n'),
+                          TextSpan(text: 'quickly'),
+                        ],
+                      ),
+                    ),
+
                     const SizedBox(height: 16),
                     const Text(
                       'Our chat app is the perfect way to stay connected with friends and family.',
-                      style: TextStyle(color: Colors.white70, fontSize: 14),
+                      style: TextStyle(
+                        color: Colors.white70,
+                        fontSize: 14,
+                        fontWeight: FontWeight.w400, // Normal style
+                      ),
                     ),
                     const SizedBox(height: 24),
-                    Row(
-                      children: const [
-                        CircleAvatar(
-                          child: Icon(Icons.facebook, color: Colors.white),
-                          backgroundColor: Colors.blue,
-                        ),
-                        SizedBox(width: 16),
-                        CircleAvatar(
-                          child: Icon(Icons.g_mobiledata, color: Colors.white),
-                          backgroundColor: Colors.red,
-                        ),
-                        SizedBox(width: 16),
-                        CircleAvatar(
-                          radius: 22,
-                          backgroundColor: Colors.transparent,
-                          backgroundImage: AssetImage(
-                            'assets/images/Apple_on.png',
-                          ), // Ensure you have an Apple logo image in your assets
-                        ),
-                      ],
+                    Center(
+                      child: Row(
+                        children: const [
+                          CircleAvatar(
+                            radius: 22,
+                            backgroundColor: Colors.transparent,
+                            backgroundImage: AssetImage(
+                              'assets/images/Facebook-f_Logo-Blue-Logo.wine.png',
+                            ), // Ensure you have an Apple logo image in your assets
+                          ),
+                          SizedBox(width: 16),
+                          CircleAvatar(
+                            radius: 22,
+                            backgroundColor: Colors.transparent,
+                            backgroundImage: AssetImage(
+                              'assets/images/Apple_on.png',
+                            ), // Ensure you have an Apple logo image in your assets
+                          ),
+                          SizedBox(width: 16),
+                          CircleAvatar(
+                            radius: 22,
+                            backgroundColor: Colors.transparent,
+                            backgroundImage: AssetImage(
+                              'assets/images/google-logo.png',
+                            ), // Ensure you have an Apple logo image in your assets
+                          ),
+                        ],
+                      ),
                     ),
                     const SizedBox(height: 24),
                     SizedBox(

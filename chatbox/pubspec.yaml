@@ -64,6 +64,7 @@ flutter:
     - assets/images/chatbox_logo.png
     - assets/images/Login_text.png
     - assets/images/Apple_Inc.-Logo.wine (1).png
+    - assets/images/Facebook-f_Logo-Blue-Logo.wine.png
     - assets/images/google-logo.png
     - assets/images/Logo.png
     - assets/images/background.png
@@ -81,11 +82,12 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
 fonts:
-     - family: caros
-       fonts:
-         - assets: assets/fonts/ Caros Bold.otf
-         - assets: fonts/Schyler-Italic.ttf
-           style: italic
+  - family: caros
+    fonts:
+      - asset: assets/fonts/Caros Bold.otf
+        weight: 700
+      - asset: assets/fonts/caros/Caros Regular.otf
+        weight: 284
 #     - family: Trajan Pro
 #       fonts:
 #         - asset: fonts/TrajanPro.ttf
