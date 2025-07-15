@@ -23,7 +23,7 @@ class SignInScreen extends StatelessWidget {
 
                 // Logo or Header Image
                 Image.asset(
-                  'assets/images/Login-text.png', // Make sure it's in pubspec.yaml
+                  'assets/images/Login_text.png', // Make sure it's in pubspec.yaml
                   width: 250,
                   height: 100,
                   fit: BoxFit.contain,
