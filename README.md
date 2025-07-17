@@ -1,17 +1,16 @@
-<!---<p align="center">
-  <img src="https://i.imgur.com/JtQ8W5E.gif" width="200" alt="Password Reset Animation" />
+<p align="center">
+  <img src="https://your-link.com/chatbox-logo.gif" width="200" alt="Chatbox Logo Animation" />
 </p>
 
-<h1 align="center">🔐 Flutter Password Reset</h1>
+<h1 align="center">💬 Chatbox - Flutter Chat App</h1>
 
 <p align="center">
-  <img src="https://i.imgur.com/5vJkK8l.png" width="100%" alt="Password Reset Banner" />
+  <img src="https://your-link.com/chatbox-banner.gif" width="100%" alt="Chatbox Banner" />
 </p>
 
 <p align="center">
-  Secure password recovery flow with Firebase Authentication and elegant UI.
-</p>-->
-
+  Real-time messaging app like WhatsApp built with Flutter, Firebase & 💙.
+</p>
 ---
 
 ## 🚀 Features
