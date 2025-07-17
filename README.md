@@ -11,7 +11,6 @@
 <p align="center">
   Real-time messaging app like WhatsApp built with Flutter, Firebase & 💙.
 </p>
----
 
 ## 🚀 Features
 
