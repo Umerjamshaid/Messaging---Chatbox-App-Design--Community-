@@ -1,6 +1,3 @@
-Here is the entire content converted into **pure Markdown** — you can save it directly as `README.md`:
-
-```markdown
 <p align="center">
   <img src="https://your-link.com/chatbox-logo.gif" width="200" alt="Chatbox Logo Animation" />
 </p>
