@@ -1,4 +1,4 @@
-<p align="center">
+<!---<p align="center">
   <img src="https://i.imgur.com/JtQ8W5E.gif" width="200" alt="Password Reset Animation" />
 </p>
 
@@ -10,7 +10,7 @@
 
 <p align="center">
   Secure password recovery flow with Firebase Authentication and elegant UI.
-</p>
+</p>-->
 
 ---
 
