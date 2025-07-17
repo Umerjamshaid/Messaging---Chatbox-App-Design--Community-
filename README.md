@@ -1,6 +1,3 @@
-Here's a professionally styled `README.md` for your password reset feature with animated banners and visual elements:
-
-```markdown
 <p align="center">
   <img src="https://i.imgur.com/JtQ8W5E.gif" width="200" alt="Password Reset Animation" />
 </p>
