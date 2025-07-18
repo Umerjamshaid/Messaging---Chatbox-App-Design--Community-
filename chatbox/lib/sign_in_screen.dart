@@ -1,3 +1,4 @@
+import 'package:chatbox/forgot_password.dart';
 import 'package:chatbox/onboarding_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:icons_plus/icons_plus.dart';
@@ -11,6 +12,10 @@ class SignInScreen extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         centerTitle: true,
+        title: const Text(
+          "Forgot Password",
+          style: TextStyle(color: Color(0xFF757575)),
+        ),
       ),
       body: SingleChildScrollView(
         child: SafeArea(
@@ -97,6 +102,7 @@ class SignInScreen extends StatelessWidget {
 
                 // Email TextField
                 TextField(
+                  keyboardType: TextInputType.emailAddress,
                   decoration: InputDecoration(
                     labelText: 'Email',
                     border: OutlineInputBorder(),
@@ -137,7 +143,14 @@ class SignInScreen extends StatelessWidget {
                 // Forgot password
                 Center(
                   child: TextButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (_) => const ForgotPassword(),
+                        ),
+                      ); // Navigate to forgot password screen
+                    },
                     child: const Text(
                       'Forgot password?',
                       style: TextStyle(color: Colors.teal),
