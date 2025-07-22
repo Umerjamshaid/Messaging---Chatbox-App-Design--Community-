@@ -1,3 +1,4 @@
+import 'package:chatbox/Home.dart';
 import 'package:chatbox/Splash_Screen.dart';
 import 'package:flutter/material.dart';
 
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'ChatBox',
       theme: ThemeData(fontFamily: 'Helvetica'),
-      home: const SplashScreen(),
+      home: HomeScreen(),
       debugShowCheckedModeBanner: false,
     );
   }
